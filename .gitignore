@@ -1,0 +1,16 @@
+# Virtual environment - har developer apna khud banata hai, isliye upload nahi karte
+venv/
+env/
+
+# Python cache files - auto-generated, koi zarurat nahi inko save karne ki
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Environment secrets - kabhi bhi real .env file upload nahi karni (API keys, secrets)
+.env
+
+# OS/Editor specific files
+.DS_Store
+.vscode/
+*.egg-info/
